@@ -48,14 +48,14 @@ export default function Slider() {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer text-red'
+            className='text-2xl cursor-pointer text-red -mt-12 ml-4'
           >
             {slideIndex == currentIndex && (
-                <div className='hidden group-hover:block -mt-12 ml-4 text-2xl rounded-full p-2 bg-white cursor-pointer'>
+                <div className='hidden group-hover:block text-2xl rounded-full p-2 bg-white cursor-pointer'>
                 </div>
             )}
             {slideIndex != currentIndex && (
-                <div className='hidden group-hover:block -mt-12 ml-4 text-2xl rounded-full p-2 bg-slider cursor-pointer'>
+                <div className='hidden group-hover:block text-2xl rounded-full p-2 bg-slider cursor-pointer'>
                 </div>
             )}
           </div>
