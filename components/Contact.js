@@ -17,7 +17,7 @@ export default function Contact() {
       console.log(data);
     }
     return (
-        <div className="flex-grow flex w-full max-w-3xl mx-auto mb-16">
+        <div className="flex-grow flex w-full max-w-3xl mx-auto mb-16" id="contact">
             <div className="flex flex-col items-center w-5/6 max-h-[48rem] mx-auto lg:ml-auto">
                 <div className="w-full">
                     <h1 className="text-xl font-made font-bold text-center p-6">CONTACT US</h1>

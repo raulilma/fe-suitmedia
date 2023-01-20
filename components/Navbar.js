@@ -4,7 +4,7 @@ import NavButton from "./Navigation/NavButton";
 export default function Navbar() {
     const [isShown, setIsShown] = useState(false);
     return (
-        <div className="fixed z-50" onMouseLeave={() => setIsShown(false)}>
+        <div className="fixed z-50 bg-white" onMouseLeave={() => setIsShown(false)}>
             <div className="w-screen h-12">
                 <div className="relative flex justify-center lg:justify-start flex-row-reverse items-center h-full mx-60">
                     <div className="hidden lg:block w-0.5 h-8 bg-black m-4"></div>

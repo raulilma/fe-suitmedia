@@ -20,6 +20,7 @@ module.exports = {
       'soft': '#bfbfbf',
       'softgray': '#f4f4f4',
       'hardgray': '#444444',
+      'slider': '#878787',
       'box-inno': '#ea7c6f',
       'box-inno-outer': '#e3594a',
       'box-loyalty': '#6a996f',

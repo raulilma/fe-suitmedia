@@ -5,13 +5,14 @@ import Contact from '@/components/Contact'
 import Navbar from '@/components/Navbar'
 import Values from '@/components/Values'
 import Footer from '@/components/Footer'
+import Slider from '@/components/Slider'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col h-screen overflow-auto">
+      <div className="flex flex-col overflow-auto">
         <Head>
           <title>Company | Raul Ilma Rajasa</title>
           <meta name="description" content="Front-End Suitmedia - Raul Ilma Rajasa" />
@@ -21,6 +22,9 @@ export default function Home() {
         {/* Navbar */}
         <Navbar/>
 
+        {/* Slider */}
+        <Slider/>
+        
         {/* Values */}
         <Values/>
 

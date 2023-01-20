@@ -2,7 +2,7 @@ import ValueCard from "./Value/ValueCard";
 
 export default function Values() {
     return (
-        <div className="flex-grow flex w-full max-w-7xl mx-auto mb-20">
+        <div className="flex-grow flex w-full max-w-7xl mx-auto mb-20" id="work">
             <div className="flex flex-col items-center w-5/6 max-h-[48rem] pt-10 mx-auto lg:ml-auto">
                 <div className="w-full">
                     <h1 className="text-xl font-made font-bold text-center p-8">OUR VALUES</h1>
