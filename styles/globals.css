@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.image-column {
+  text-align: center;
+}
+
+.image-container {
+  display: inline-block;
+}
