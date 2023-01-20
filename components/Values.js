@@ -6,7 +6,7 @@ export default function Values() {
             <div className="flex flex-col items-center w-5/6 max-h-[48rem] pt-10 mx-auto lg:ml-auto">
                 <div className="w-full">
                     <h1 className="text-xl font-made font-bold text-center p-8">OUR VALUES</h1>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <ValueCard
                         image="/img/lightbulb-o.png"
                         nama="INNOVATIVE"

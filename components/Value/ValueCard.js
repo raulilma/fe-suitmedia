@@ -20,6 +20,11 @@ export default function ValueCard(props) {
                         <p className="font-normal text-sm mt-4">{deskripsi}</p>
                     </div>
                 </div>
+                <div class="lg:block absolute top-20 -right-16 w-16 
+                    border-t-[16px] border-t-transparent
+                    border-l-[16px] border-l-box-inno-outer
+                    border-b-[16px] border-b-transparent">
+                </div>
             </div>
         )}
         {nama == 'LOYALTY' && (
@@ -34,6 +39,11 @@ export default function ValueCard(props) {
                         <h4 className="font-bold text-lg mt-2">{nama}</h4>
                         <p className="font-normal text-sm mt-4">{deskripsi}</p>
                     </div>
+                </div>
+                <div class="lg:block absolute top-20 -right-16 w-16 
+                    border-t-[16px] border-t-transparent
+                    border-l-[16px] border-l-box-loyalty-outer
+                    border-b-[16px] border-b-transparent">
                 </div>
             </div>
         )}
