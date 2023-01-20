@@ -8,20 +8,19 @@ export default function Contact() {
         email: yup.string().email().required(),
         message: yup.string().required()
     }).required();
-    const { register, handleSubmit, watch, formState: { errors } } = useForm({
+    const { register, handleSubmit, formState: { errors } } = useForm({
       mode: "onBlur",
       resolver: yupResolver(schema)
     });
 
     function contactSubmit(data) {
-      // handle submitting the form
       console.log(data);
     }
     return (
         <div className="flex-grow flex w-full max-w-3xl mx-auto mb-16">
             <div className="flex flex-col items-center w-5/6 max-h-[48rem] mx-auto lg:ml-auto">
                 <div className="w-full">
-                    <h1 className="text-xl font-made font-bold text-center p-8">CONTACT US</h1>
+                    <h1 className="text-xl font-made font-bold text-center p-6">CONTACT US</h1>
                     <form onSubmit={handleSubmit(contactSubmit)}>
                         <div className="mb-4">
                             <label
@@ -96,8 +95,8 @@ export default function Contact() {
                                 </p>
                             )}
                         </div>
-                        <button className="inline-block bg-yellow-500 text-yellow-800 shadow py-2 px-5 text-sm">
-                            Submit
+                        <button className="block w-full bg-blue text-white shadow py-3 px-5 text-sm">
+                            SUBMIT
                         </button>
                     </form>
                 </div>
