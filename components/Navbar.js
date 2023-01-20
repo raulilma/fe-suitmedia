@@ -31,7 +31,7 @@ export default function Navbar() {
                         >
                             <a
                                 href="#history"
-                                className="flex items-center py-2 px-4 mt-2 hover:scale-105 duration-100"
+                                className="flex items-center py-2 px-4 mt-2 hover:scale-90 hover:bg-softgray duration-100"
                             >
                                 <p className="font-normal text-sm mx-2">
                                     HISTORY
@@ -39,7 +39,7 @@ export default function Navbar() {
                             </a>
                             <a
                                 href="#visimisi"
-                                className="flex items-center py-2 px-4 hover:scale-105 duration-100"
+                                className="flex items-center py-2 px-4 hover:scale-90 hover:bg-softgray duration-100"
                             >
                                 <p className="font-normal text-sm mx-2">
                                     VISION MISSION
