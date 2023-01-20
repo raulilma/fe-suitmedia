@@ -19,6 +19,7 @@ module.exports = {
       'footer': '#333333',
       'soft': '#bfbfbf',
       'softgray': '#f4f4f4',
+      'hardgray': '#444444',
       'box-inno': '#ea7c6f',
       'box-inno-outer': '#e3594a',
       'box-loyalty': '#6a996f',

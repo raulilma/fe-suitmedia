@@ -27,11 +27,11 @@ export default function Navbar() {
                         onMouseEnter={() => setIsShown(true)}><p className="text-sm px-3 py-1">ABOUT</p></a>
                     {isShown && (
                         <div
-                            className="absolute top-12 right-[290px] w-[200px] h-[100px] bg-white"
+                            className="absolute top-12 right-[290px] w-[200px] h-[88px] bg-white"
                         >
                             <a
                                 href="#history"
-                                className="flex items-center py-2 px-2 mt-2 hover:scale-90 hover:bg-softgray duration-100"
+                                className="flex items-center p-3 hover:bg-hardgray hover:text-white duration-100"
                             >
                                 <p className="font-normal text-sm mx-2">
                                     HISTORY
@@ -39,7 +39,7 @@ export default function Navbar() {
                             </a>
                             <a
                                 href="#visimisi"
-                                className="flex items-center py-2 px-2 mt-3 hover:scale-90 hover:bg-softgray duration-100"
+                                className="flex items-center p-3 hover:bg-hardgray hover:text-white duration-100"
                             >
                                 <p className="font-normal text-sm mx-2">
                                     VISION MISSION
