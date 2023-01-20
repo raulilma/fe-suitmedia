@@ -6,12 +6,17 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  variants: {
+    display: ["group-hover"]
+  },
   theme: {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
       'footer': '#333333',
+      'soft': '#bfbfbf',
+      'softgray': '#f1f5f9'
     },
     extend: {},
   },
