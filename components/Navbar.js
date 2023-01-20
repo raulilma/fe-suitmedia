@@ -23,15 +23,15 @@ export default function Navbar() {
                         title="OUR WORK"
                         href="#work"
                     />
-                    <a className="m-4 hover:scale-105 hover:bg-softgray duration-100 lg:text-base lg:ml-4 lg:mr-8 lg:px-4 pt-1 pb-1.5"
+                    <a className="m-4 hover:scale-105 hover:bg-softgray duration-100 pt-2 pb-2"
                         onMouseEnter={() => setIsShown(true)}><p className="text-sm px-3 py-1">ABOUT</p></a>
                     {isShown && (
                         <div
-                            className="absolute top-10 right-96 w-40 h-24 bg-white"
+                            className="absolute top-12 right-[338px] w-35 h-24 bg-white"
                         >
                             <a
                                 href="#history"
-                                className="flex items-center py-2 px-4 mt-2 hover:bg-bryellow duration-100"
+                                className="flex items-center py-2 px-4 mt-2 hover:scale-105 duration-100"
                             >
                                 <p className="font-normal text-sm mx-2">
                                     HISTORY
@@ -39,7 +39,7 @@ export default function Navbar() {
                             </a>
                             <a
                                 href="#visimisi"
-                                className="flex items-center py-2 px-4 hover:bg-bryellow duration-100"
+                                className="flex items-center py-2 px-4 hover:scale-105 duration-100"
                             >
                                 <p className="font-normal text-sm mx-2">
                                     VISION MISSION

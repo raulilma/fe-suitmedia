@@ -16,7 +16,7 @@ module.exports = {
       'white': '#ffffff',
       'footer': '#333333',
       'soft': '#bfbfbf',
-      'softgray': '#f1f5f9'
+      'softgray': '#f4f4f4'
     },
     extend: {},
   },
