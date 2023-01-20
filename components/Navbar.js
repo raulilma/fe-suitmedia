@@ -23,7 +23,7 @@ export default function Navbar() {
                         onMouseEnter={() => setIsShown(true)}><p className="text-sm px-3 py-1">ABOUT</p></a>
                     {isShown && (
                         <div
-                            className="absolute top-12 right-[306px] w-[200px] h-[88px] bg-white"
+                            className="absolute top-12 right-[273px] w-[200px] h-[88px] bg-white"
                         >
                             <a
                                 href="#history"
