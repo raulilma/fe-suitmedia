@@ -7,7 +7,6 @@ export default function Navbar() {
         <div className="fixed z-50 bg-white" onMouseLeave={() => setIsShown(false)}>
             <div className="w-screen h-12">
                 <div className="relative flex justify-center lg:justify-start flex-row-reverse items-center h-full mx-60">
-                    <div className="hidden lg:block w-0.5 h-8 bg-black m-4"></div>
                     <NavButton
                         title="CONTACT"
                         href="#contact"
