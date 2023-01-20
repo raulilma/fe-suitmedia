@@ -11,24 +11,25 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Company | Raul Ilma Rajasa</title>
-        <meta name="description" content="Front-End Suitmedia - Raul Ilma Rajasa" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      {/* Navbar */}
-      <Navbar/>
+      <div className="flex flex-col h-screen overflow-auto">
+        <Head>
+          <title>Company | Raul Ilma Rajasa</title>
+          <meta name="description" content="Front-End Suitmedia - Raul Ilma Rajasa" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        {/* Navbar */}
+        <Navbar/>
 
-      {/* Values */}
-      <Values/>
+        {/* Values */}
+        <Values/>
 
-      {/* Contact */}
-      <Contact/>
+        {/* Contact */}
+        <Contact/>
 
-      {/* Footer */}
-      <Footer/>
-      
+        {/* Footer */}
+        <Footer/>
+      </div>
     </>
   )
 }
