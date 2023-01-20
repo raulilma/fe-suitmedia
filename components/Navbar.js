@@ -9,25 +9,22 @@ export default function Navbar() {
                 <div className="relative flex justify-center lg:justify-start flex-row-reverse items-center h-full mx-60">
                     <div className="hidden lg:block w-0.5 h-8 bg-black m-4"></div>
                     <NavButton
-                        className="m-4"
                         title="CONTACT"
                         href="#contact"
                     />
                     <NavButton
-                        className="m-4"
                         title="OUR TEAM"
                         href="#team"
                     />
                     <NavButton
-                        className="m-4"
                         title="OUR WORK"
                         href="#work"
                     />
-                    <a className="m-4 hover:scale-105 hover:bg-softgray duration-100 pt-2 pb-2"
+                    <a className="p-4 hover:scale-105 hover:bg-softgray duration-100 pt-2 pb-2"
                         onMouseEnter={() => setIsShown(true)}><p className="text-sm px-3 py-1">ABOUT</p></a>
                     {isShown && (
                         <div
-                            className="absolute top-12 right-[290px] w-[200px] h-[88px] bg-white"
+                            className="absolute top-12 right-[306px] w-[200px] h-[88px] bg-white"
                         >
                             <a
                                 href="#history"
